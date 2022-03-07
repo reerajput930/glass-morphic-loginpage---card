@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+ 
+}
+
+.big_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.card{
+    height: 40rem;
+    width: 30rem;
+    margin: 20px 20px 20px 20px ;
+    border-radius: 10px;
+    z-index: 99;
+
+    box-shadow: 20px 20px 50px  rgba(0,0,0,0.5);
+    background-color: rgba(225,255,255,0.1);
+}
+
+/* for making circles */
+body::before{
+   content:'';
+   position: absolute;
+   top: 0;  
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: red;
+   clip-path: circle(23rem at 13% 4%);
+}
+
+body::after{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    clip-path: circle(40rem at 100% 100%);
+}
