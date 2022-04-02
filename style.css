@@ -12,20 +12,16 @@ body{
     flex-wrap: wrap;
 }
 .card{
-    height: 32rem;
-    width: 24rem;
-    margin: 24px 65px 48px 65px;
+    height: 31rem;
+    width: 23rem;
+    margin: -111px -7px 48px 65px;
     border-radius: 20px;
     z-index: 99;
-   
-    /* important factor , to keep in mind */
-    box-shadow: 20px 20px 50px  rgba(0,0,0,0.5);
+    box-shadow: 20px 20px 50px rgb(0 0 0 / 50%);
     background-color: rgba(225,255,255,0.1);
     border-top: 1px solid rgba(255,255,255,0.5);
     border-left: 1px solid rgba(255,255,255,0.5);
     backdrop-filter: blur(5px);
-
-
     display: flex;
     flex-direction: column;
     align-items: center;
